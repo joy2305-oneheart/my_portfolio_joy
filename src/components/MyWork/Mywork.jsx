@@ -17,7 +17,8 @@ export default function Mywork() {
 
       <div className='ap-work-wrp relative flex justify-around align-middle -mt-6 md:py-24 md:px-20 px-5 py-20 flex-col'>
           <img className='w-full h-full ap-dark-bg rounded-3xl scroll  absolute inset-0' src={orange} alt="" />
-          <h2 className='md:text-7xl text-4xl z-10 font-sans text-white font-semibold md:pb-20 pb-12'>MY BLOG's</h2>
+          <h2 className='md:text-7xl text-4xl z-10 font-sans text-white font-semibold md:pb-20 pb-12'>MY BLOG's</h2>\
+          
         <div className='ap-card-wrp flex w-full gap-10 flex-wrap justify-center'>
           {data.map(item => (
                   <Card key={item.id} title={item.title} description={item.description} imgSrc={item.imgSrc}/>
