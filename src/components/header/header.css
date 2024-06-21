@@ -1,0 +1,11 @@
+.ap-port-navbar,
+.ap-port-navbar:hover{
+    transition: transform 1.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+  }
+  .ap-mobile-menu-ul{
+    background-color: #213547;
+  }
